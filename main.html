@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my page</title>
+<link rel="stylesheet" href="c1.css">
+<script src="j1.js"></script>
+</head>
+<body onload="starttime()">
+
+<ul>
+  <li id="hom1"><a onclick="toggle_visibility('hom','edu','exp','pro','abt');">Home</a></li>
+  <li><a id="edu1" onclick="toggle_visibility('edu','hom','exp','pro','abt');">Education</a></li>
+  <li><a onclick="toggle_visibility('exp','edu','hom','pro','abt');">Experience</a></li>
+  <li><a onclick="toggle_visibility('pro','edu','exp','hom','abt');">Projects</a></li>
+  <li><a onclick="toggle_visibility('abt','edu','exp','pro','hom');">About</a></li>
+  <li><p id="d"></p><li>
+</ul>
+<!-------------------------------------------------------------------------------------->
+<div id="hom">
+<div class="mainp">
+<img src="https://drive.google.com/uc?export=view&id=14gW03BTic3hQpAJDiADSzdBhq103pIMU" alt="shushma picture">
+<h1>Hello I am</h1>
+<h1>Maturi Sai Shushma</h1>
+
+</div>
+</div>
+<!-------------------------------------------------------------------------------------->
+<div id="edu">
+<div class="logos1">
+<img src="iiith.jpg" alt="iiith logo">
+<p>I am currently persuing Mtech from <a href="https://www.iiit.ac.in/" target="_blank">Indian Institute of Information Technology, Hyderabad</a></p>
+<p><b>Branch  :</b>CSE</p>
+<p><b>Location:</b> Hyderabad</p>
+<p><b>Duration:</b> 2021-2023</p>
+
+</div>
+<br><br><br><br><br><br>
+<div class="logos1">
+<img src="nitap.jpg" alt="nitap logo">
+<p>I Have done my graduation from <a href="https://www.nitandhra.ac.in/main/" target="_blank">National Institute of Technology, Andhra Pradesh</a></p>
+<p><b>Branch  :</b>CSE</p>
+<p><b>Location:</b> Tadepalligudem, Andhra Pradesh</p>
+<p><b>Duration:</b> 2015-2019</p>
+<p><b>CGPA    :</b> 8.48</p>
+</div>
+<br><br><br><br><br><br>
+<div class="logos1">
+<img src="narayana.jpg" alt="narayana logo">
+<p>I completed my Intermediate from <a href="https://www.narayanagroup.com/" target="_blank">Narayana Junior College</a></p>
+<p><b>Branch  :</b>MPC</p>
+<p><b>Location:</b> Vijayawada, Andhra Pradesh</p>
+<p><b>Duration:</b> 2013-2015</p>
+<p><b>Percentge  :</b> 96%</p>
+</div>
+<br><br><br><br><br><br>
+<div class="logos1">
+<img src="orchids.jpg" alt="orchids logo">
+<p>I completed my scholing from Orchids Techno School</p>
+<p><b>Classes :</b>7-10</p>
+<p><b>Location:</b> Ongole, Andhra Pradesh</p>
+<p><b>Duration:</b> 2009-2013</p>
+<p><b>Percentge  :</b> 98%</p>
+</div>
+
+</div>
+<!-------------------------------------------------------------------------------------->
+<div id="exp">
+ <div class="logos2">
+<img src="company.jpg" alt="accenture logo">
+<p>Worked in <a href="https://www.accenture.com/in-en" target="_blank">Accenture</a> as an Advanced<b><i> Application Engineering Analyst</b></i></p>
+<p>-Hands-on Experience in Hadoop Technologies like HDFS, MapReduce, Hive, Spark and Sqoop</p>
+<p>-Capable of processing large sets of structured, semi-structured and unstructured data and supporting systems application architecture</p>
+<p>-Involved in managing data from Relational DB to HDFS using Scoop</p>
+<p>-Implemented complex Hive quires and partitioning of Hive tables</p>
+<p><b>Domain  :</b>Bigdata</p>
+<p><b>Location:</b> Banglore, India</p>
+<p><b>Duration:</b> 2019-2020</p>
+
+</div> 
+</div>
+<!-------------------------------------------------------------------------------------->
+<div id="pro">
+<div class="logos3">
+<img src="student.png" alt="student behaviour predection">
+<h1>Student Behaviour Prediction System</h1>
+<p>- Taken a data set with 26 attributes and build a model to predict final grade of student</p>
+<p>- Tried to answer many quires about student behaviour</p>
+<p>- Used tool WEKA for classification, clustering, attribute subset selection and tool R for improving the prediction system and for many quires</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="logos4">
+<img src="orphnage.png" alt="Online Orphanage Donation System">
+<h1>Online Orphanage Donation System</h1>
+<p>- Developed website with contains logins for Orphanage head, donar</p>
+<p>- It provides complete information about all the orphanages which are registered</p>
+<p>- Front end is developed using HTML, CSS, Java Script and Back end is developed using PHP with Xampp server</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="logos3">
+<img src="fish.jpg" alt="fish farms architecture">
+<h1>Reliable and Cost Effective Approach for Aqua Culture Monitoring in Indian Fish Farms</h1>
+<p>- For Monitoring the fish farms generally Bluetooth system (cost effective) or Mobile network(most Reliable)</p>
+<p>- Proposed a architectural model combining both the technologies</p>
+<p>- used Matlab for implementation</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="logos4">
+<img src="snake.png" alt="snake game">
+<h1>Snake Game</h1>
+<p>- Implemented the snake game with some extra functionalities to add more fun to game</p>
+<p>- Implemented using Bash scripting</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="logos3">
+<img src="security.png" alt="personal security design">
+<h1>Personal System Security with continuous authentication</h1>
+<p>- Proposed model for continuous monitoring of personal system using proximity sensor</p>
+<p>- Used technologies like face recognition, speech to text conversion and secret password with captcha</p>
+<p>- Used Arduino for sensor and integrated with Python</p>
+</div>
+</div>
+<!-------------------------------------------------------------------------------------->
+<div id="abt">
+<h1 id="abth"><b>Complete Information</b></h1>
+<table>
+<tr>
+<th>Name</th>
+<td>M Sai Shushma</td>
+</tr>
+<tr>
+<th>Date of Birth</th>
+<td>20 May</td>
+</tr>
+<tr>
+<th>Gender</th>
+<td>Female</td>
+</tr>
+<tr>
+<th>Education</th>
+<td>MTech</td>
+</tr>
+<tr>
+<th>Languages</th>
+<td>Telugu, English</td>
+</tr>
+<tr>
+<th>Technical Skills</th>
+<td>c++, python, sql, Hadoop Ecosystem</td>
+</tr>
+<tr>
+<th>Areas Of Intrest</th>
+<td>Big Data, Data Science</td>
+</tr>
+<tr>
+<th>Resume</th>
+<td><a href="https://drive.google.com/file/d/1-CCm2lLHGkoCaOlTR-EAfkrQlkdYeWb-/view?usp=sharing"><b>Resume link</b></a></td>
+</tr>
+<tr>
+<th rowspan="2">Email</th>
+<td><a href="saishushma.maturi@gmail.com">saishushma.maturi@gmail.com</a></td>
+</tr>
+<tr>
+<td><a href="maturi.shushma@students.iiit.ac.in">maturi.shushma@students.iiit.ac.in</a></td>
+</tr>
+<tr>
+<th>Github</th>
+<td><a href="https://github.com/saishushma"><b>Git link</b></a></td>
+</tr>
+<tr>
+<th>LinkedIn</th>
+<td><a href="https://www.linkedin.com/in/sai-shushma-maturi-b249a0218/"><b>Linkedin profile</b></a></td>
+</tr>
+<tr>
+<th>Address</th>
+<td><address>Kothaptnam,  Prakasam dist,  Andhra Pradesh.523280</address></td>
+</tr>
+</table>
+
+</div>
+</body>
+</body>
+</html>
+ 
